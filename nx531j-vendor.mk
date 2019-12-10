@@ -61,8 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/nubia/nx531j/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/nubia/nx531j/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
-    vendor/nubia/nx531j/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
-    vendor/nubia/nx531j/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/nubia/nx531j/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/nubia/nx531j/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/nubia/nx531j/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
@@ -90,8 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/nubia/nx531j/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/nubia/nx531j/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
-    vendor/nubia/nx531j/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
-    vendor/nubia/nx531j/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/nubia/nx531j/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/nubia/nx531j/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/nubia/nx531j/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
@@ -109,6 +105,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/lib64/vendor.qti.gnss@2.0.so:system/lib64/vendor.qti.gnss@2.0.so \
     vendor/nubia/nx531j/proprietary/lib64/vendor.qti.gnss@2.1.so:system/lib64/vendor.qti.gnss@2.1.so \
     vendor/nubia/nx531j/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/nubia/nx531j/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
+    vendor/nubia/nx531j/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/nubia/nx531j/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/nubia/nx531j/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/nubia/nx531j/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
