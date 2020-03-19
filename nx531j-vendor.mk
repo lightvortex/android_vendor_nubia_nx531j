@@ -48,7 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/nubia/nx531j/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
     vendor/nubia/nx531j/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/nubia/nx531j/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/nubia/nx531j/proprietary/product/framework/qti-telephony-common.jar:system/product/framework/qti-telephony-common.jar \
     vendor/nubia/nx531j/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/nubia/nx531j/proprietary/framework/vendor.qti.data.factory-V1.0-java.jar:system/framework/vendor.qti.data.factory-V1.0-java.jar \
     vendor/nubia/nx531j/proprietary/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
